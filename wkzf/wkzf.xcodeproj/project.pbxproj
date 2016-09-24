@@ -26,6 +26,7 @@
 		A765009E1D9643D200F355CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A76500A11D9643D200F355CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A76500A31D9643D200F355CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76500B01D96819000F355CA /* Commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		A76500911D9643D200F355CA /* wkzf */ = {
 			isa = PBXGroup;
 			children = (
+				A76500AF1D96817100F355CA /* commons */,
 				A76500951D9643D200F355CA /* AppDelegate.h */,
 				A76500961D9643D200F355CA /* AppDelegate.m */,
 				A76500981D9643D200F355CA /* ViewController.h */,
@@ -77,6 +79,14 @@
 				A76500931D9643D200F355CA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A76500AF1D96817100F355CA /* commons */ = {
+			isa = PBXGroup;
+			children = (
+				A76500B01D96819000F355CA /* Commons.h */,
+			);
+			path = commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +120,7 @@
 				TargetAttributes = {
 					A765008E1D9643D200F355CA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FSJU9UYC5V;
 					};
 				};
 			};
@@ -263,10 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = wkzf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wkzf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifang.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = wkzf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wkzf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifang.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +317,7 @@
 				A76500A81D9643D200F355CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
