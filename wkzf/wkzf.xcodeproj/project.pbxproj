@@ -13,6 +13,7 @@
 		A765009D1D9643D200F355CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A765009B1D9643D200F355CA /* Main.storyboard */; };
 		A765009F1D9643D200F355CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A765009E1D9643D200F355CA /* Assets.xcassets */; };
 		A76500A21D9643D200F355CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76500A01D9643D200F355CA /* LaunchScreen.storyboard */; };
+		A76500B51D9762D500F355CA /* WYTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A76500B41D9762D500F355CA /* WYTopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		A76500A11D9643D200F355CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A76500A31D9643D200F355CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A76500B01D96819000F355CA /* Commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
+		A76500B31D9762D500F355CA /* WYTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTopView.h; sourceTree = "<group>"; };
+		A76500B41D9762D500F355CA /* WYTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				A76500961D9643D200F355CA /* AppDelegate.m */,
 				A76500981D9643D200F355CA /* ViewController.h */,
 				A76500991D9643D200F355CA /* ViewController.m */,
+				A76500B31D9762D500F355CA /* WYTopView.h */,
+				A76500B41D9762D500F355CA /* WYTopView.m */,
 				A765009B1D9643D200F355CA /* Main.storyboard */,
 				A765009E1D9643D200F355CA /* Assets.xcassets */,
 				A76500A01D9643D200F355CA /* LaunchScreen.storyboard */,
@@ -160,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76500B51D9762D500F355CA /* WYTopView.m in Sources */,
 				A765009A1D9643D200F355CA /* ViewController.m in Sources */,
 				A76500971D9643D200F355CA /* AppDelegate.m in Sources */,
 				A76500941D9643D200F355CA /* main.m in Sources */,
